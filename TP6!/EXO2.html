@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXO2</title>
+  <style>
+    .rouge {
+      z-index:1;
+      position:absolute;
+      width:100px;
+      height:100px;
+      background-color:red;
+    }
+    .vert {
+      z-index:0;
+      position:absolute;
+      top:40px;
+      left:40px;
+      width:190px;
+      height:300px;
+      background-color:rgb(4, 241, 4);
+    }
+    .bleu {
+      position:absolute;
+      left:125px;
+      top:75px;
+      width:310px;
+      height:220px;
+      background-color:blue;
+    }
+    .container {
+      position:absolute;
+      left:30px;
+    }
+    .papillon2 {
+      position:absolute;
+      z-index:3;
+      top:30px;
+    }
+    .papillon {
+      position:absolute;
+      z-index:2;
+      top:100px;
+      left:160px;
+    }
+  </style>
+</head>
+<body>
+  <img class="papillon2" src="./Images/papillon2.gif" alt="papillon2">
+  <img class="papillon" src="./Images/papillon.gif" alt="papillon">
+  <div class="container">
+    <div class="rouge"><p>Texte du premier div</p></div>
+    <div class="vert"><p>Un deuxième div</p></div>
+    <div class="bleu"><p>Et un troisième div !</p></div>
+  </div>
+</body>
+</html>
